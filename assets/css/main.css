@@ -10187,18 +10187,37 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .contact-inner-area .widget-contactbox:hover .content h4 {
-  color: var(--ztc-text-text-4);
+  color: var(--ztc-text-text-1);
   transition: all 0.4s;
 }
 
 .contact-inner-area .widget-contactbox:hover .content a {
-  color: var(--ztc-text-text-4);
+  color: var(--ztc-text-text-1);
   opacity: 80%;
   transition: all 0.4s;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #845AFF;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #5f3fbd;
+}
+
 .contact-inner-area .widget-contactbox::after {
-  background: var(--ztc-bg-bg-7);
+  background: var(--ztc-bg-bg-8);
   position: absolute;
   content: "";
   height: 100%;
