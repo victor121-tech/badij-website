@@ -145,13 +145,14 @@
 
 .body-overlay {
   background-color: #000000;
-  height: 950px;
+  height: 100vh;
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 1010;
   left: 0;
   opacity: 0;
+  overflow: hidden;
   visibility: hidden;
   transition: all 0.3s linear 0s;
   transition: all 600ms ease;
