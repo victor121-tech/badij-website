@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="assets/css/main.css">
 
   <script src="assets/js/plugins/jquery-3-7-1.min.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 
 <body class="body-bg1">
@@ -61,7 +62,7 @@
               <nav class="vl-mobile-menu-active">
                 <ul>
                   <li><a href="#">Welcome<span></span></a></li>
-                  <li><a href="#services">Features<span></span></a></li>
+                  <li><a href="#about">Our story<span></span></a></li>
                   <li><a href="#project">Our creations<span></span></a></li>
                   <li><a href="#team">Meet the team<span></span></a></li>
                 </ul>
@@ -71,7 +72,7 @@
           <div class="col-lg-4 col-md-6 col-6">
             <div class="vl-hero-btn d-none d-lg-block text-end">
               <span class="vl-btn-wrap text-end">
-                <a href="contact.html" class="vl-btn1" style="overflow: hidden;">Get Started</a>
+                <a href="contact.html" class="vl-btn1" style="overflow: hidden;">Connect with us</a>
               </span>
               <button class="hamburger_menu"><img src="assets/img/icons/bars-icons1.svg" alt=""></button>
             </div>
@@ -106,15 +107,14 @@
         <div class="sidebar-content">
           <ul>
             <li><a href="#">Welcome<span></span></a></li>
-            <li><a href="#services">Features<span></span></a></li>
+            <li><a href="#about">Our Story<span></span></a></li>
             <li><a href="#project">Our creations<span></span></a></li>
-            <li><a href="#testimonials">Feedbacks<span></span></a></li>
             <li><a href="#team">Meet the team<span></span></a></li>
           </ul>
         </div>
         <div class="space32"></div>
         <div class="btn-area">
-          <a href="contact.html" class="vl-btn1" style="overflow: hidden;">Get in touch now</a>
+          <a href="contact.html" class="vl-btn1" style="overflow: hidden;">Connect with us</a>
         </div>
         <div class="space40"></div>
         <div class="social-link-area">
@@ -151,15 +151,16 @@
 
         <div class="vl-offcanvas-menu d-lg-none mb-40">
           <nav></nav>
+          <li><a href="contact.html" style="color: white; text-decoration: none; position: relative; top: 8px; font-size: 18px; font-weight: 500;">Contact Us</a></li>
         </div>
 
-        <div class="space20"></div>
+        <div class="space40"></div>
         <div class="vl-offcanvas-info">
-          <h3 class="vl-offcanvas-sm-title">Contact Us</h3>
+          <h3 class="vl-offcanvas-sm-title">React Out To Us</h3>
           <div class="space20"></div>
-          <span><a href="#"> <i class="fa-regular fa-envelope"></i> +57 9954 6476</a></span>
-          <span><a href="#"><i class="fa-solid fa-phone"></i> hello@exdos.com</a></span>
-          <span><a href="#"><i class="fa-solid fa-location-dot"></i> Bhemeara,Kushtia</a></span>
+          <span><a href="#"> <i class="fa-solid fa-phone"></i>+234-703-934-1702</a></span>
+          <span><a href="#"><i class="fa-regular fa-envelope"></i>hello@badijtech.com.ng</a></span>
+          <span><a href="#"><i class="fa-solid fa-location-dot"></i>14b Kafayat Abdulrazaq Street, Lekki Phase 1</a></span>
         </div>
         <div class="space20"></div>
         <div class="vl-offcanvas-social">
@@ -177,30 +178,44 @@
   </div>
   <!--===== MOBILE HEADER STARTS =======-->
 
-  <!--===== HERO AREA STARTS =======-->
   <div class="hero1-section-area"
     style="background-image: url(assets/img/all-images/bg/bg6.png); background-position: center top; background-repeat: no-repeat; background-size: cover;">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7">
           <div class="hero-header-area">
-            <h5><img src="assets/img/icons/sub-logo1.svg" alt="">Take your Business To The Next Level</h5>
-            <div class="space32"></div>
-            <h1 class="text-anime-style-3">Building</h1>
-            <h1 class="text-anime-style-3">Digital<img src="assets/img/all-images/others/others-img3.png" alt=""
-                class="others-img1">Experiences</h1>
+            <div class="d-flex align-items-center" style="gap: '4px';">
+              <img src="assets/img/icons/sub-logo1.svg" alt="">
+              <h5 id="element"></h5>
+            </div>
+            <div class="space20"></div>
+            <h1 class="text-anime-style-3">Building Digital</h1>
+            <h1 class="text-anime-style-3">Experiences</h1>
           </div>
         </div>
         <div class="col-lg-1"></div>
         <div class="col-lg-4">
           <div class="imges-header">
-            <div class="img1">
-              <img src="assets/images/tech-earth.png" alt="" class="keyframe6">
+            <div class="portfolio-carousel">
+              <div class="carousel-container">
+                <div class="carousel-slides">
+                  <div class="portfolio-card" data-position="left">
+                    <img src="assets/images/portfolio/edike-mobile.png" alt="Portfolio Project 1">
+                  </div>
+                  <div class="portfolio-card" data-position="center">
+                    <img src="assets/images/portfolio/strictlyseasons-mobile.png" alt="Portfolio Project 2">
+                  </div>
+                  <div class="portfolio-card" data-position="right">
+                    <img src="assets/images/portfolio/madisonjay-mobile.png" alt="Portfolio Project 3">
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div class="space60"></div>
+      <div class="space30"></div>
       <div class="row">
         <div class="col-lg-12">
           <div class="hero-bottom-images">
@@ -298,7 +313,6 @@
 
   <!--===== ABOUT AREA STARTS =======-->
   <div class="about1-section-area sp6" id="about">
-    <img src="assets/img/elements/elements9.png" alt="" class="elements9">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6">
@@ -311,62 +325,58 @@
         </div>
         <div class="col-lg-6">
           <div class="about-header heading1">
-            <h5 data-aos="fade-left" data-aos-duration="800"><img src="assets/img/icons/sub-logo2.svg" alt="">Driven by
+            <h5 data-aos="fade-left" data-aos-duration="800" style="color: white; z-index: 30;"><img
+                src="assets/img/icons/sub-logo2.svg" alt="">Driven by
               Innovation & Results</h5>
             <div class="space20"></div>
-            <h2 class="text-anime-style-3">Digital Excellence Delivered</h2>
+            <h2 data-aos="fade-right" data-aos-duration="800">We're Driven by Passion. Inspired by Creativity. Led by
+              Innovation.</h2>
             <div class="space16"></div>
-            <p data-aos="fade-left" data-aos-duration="900">At BadiJTech, our team of designers, developers, and digital
-              strategists are passionate about transforming your brand's vision into powerful digital experiences that
-              deliver measurable results.</p>
+            <p data-aos="fade-left" data-aos-duration="900">Since 2022, we’ve been helping established businesses,
+              startups, and brands enhance their digital presence, aligning them with current market trends, and laying
+              a solid foundation for their future growth using digital tools, creative solutions & partnerships.</p>
             <div class="space32"></div>
             <div class="bg-progress" data-aos="fade-left" data-aos-duration="1000">
               <div class="progress-bar">
-                <label>Web Design & Development <span>100%</span></label>
+                <label>Communication <span>100%</span></label>
                 <div class="progress">
                   <div class="progress-inner" style="width: 100%;"></div>
                 </div>
               </div>
 
               <div class="progress-bar">
-                <label>Search Engine Optimization <span>100%</span></label>
+                <label>Teamwork <span>100%</span></label>
                 <div class="progress">
                   <div class="progress-inner" style="width: 100%;"></div>
                 </div>
               </div>
 
               <div class="progress-bar">
-                <label>Graphic Design & Branding <span>100%</span></label>
-                <div class="progress">
-                  <div class="progress-inner" style="width:100%;"></div>
-                </div>
-              </div>
-
-              <div class="progress-bar">
-                <label>Social Media Marketing <span>100%</span></label>
+                <label>Problem Solving <span>100%</span></label>
                 <div class="progress">
                   <div class="progress-inner" style="width: 100%;"></div>
                 </div>
               </div>
 
               <div class="progress-bar">
-                <label>AI & Automation Solutions <span>100%</span></label>
+                <label>Adaptability <span>100%</span></label>
+                <div class="progress">
+                  <div class="progress-inner" style="width: 100%;"></div>
+                </div>
+              </div>
+              <div class="progress-bar">
+                <label>Time Management <span>100%</span></label>
                 <div class="progress">
                   <div class="progress-inner" style="width: 100%;"></div>
                 </div>
               </div>
 
               <div class="progress-bar m-0">
-                <label>E-commerce Development <span>100%</span></label>
+                <label>Leadership <span>100%</span></label>
                 <div class="progress">
                   <div class="progress-inner" style="width: 100%;"></div>
                 </div>
               </div>
-
-            </div>
-            <div class="space32"></div>
-            <div class="btn-area1" data-aos="fade-left" data-aos-duration="1100">
-              <a href="contact.html" class="vl-btn1" style="overflow: hidden;">Reach Out To Us</a>
             </div>
           </div>
         </div>
@@ -374,6 +384,29 @@
     </div>
   </div>
   <!--===== ABOUT AREA ENDS =======-->
+
+  <div class="counter-setion">
+    <div class="container">
+      <div class="counter">
+        <h3>Years Experience</h3>
+        <div class="number" data-counter-time="2000">2</div>
+        <span class="plus">+</span>
+        <p>Delivering Excellence</p>
+      </div>
+      <div class="counter">
+        <h3>Team of Experts</h3>
+        <div class="number" data-counter-time="2000">20</div>
+        <span class="plus">+</span>
+        <p>Distributed Globally</p>
+      </div>
+      <div class="counter">
+        <h3>Customer Satisfaction</h3>
+        <div class="number" data-counter-time="2000">100</div>
+        <span class="plus">%</span>
+        <p>Client Happiness</p>
+      </div>
+    </div>
+  </div>
 
   <!--===== OTHERS AREA STARTS =======-->
   <div class="serve-section-area sp10">
@@ -481,14 +514,15 @@
 
   <!--===== SERVICE AREA STARTS =======-->
   <div class="service1-section-area sp6"
-    style="background-image: url(assets/img/all-images/bg/bg6.png); background-position: center; background-size: cover; background-repeat: no-repeat;" id="services">
+    style="background-image: url(assets/img/all-images/bg/bg6.png); background-position: center; background-size: cover; background-repeat: no-repeat;"
+    id="services">
     <div class="container">
       <div class="row">
         <div class="col-lg-5 m-auto">
           <div class="service-header heading1 text-center space-margin60">
             <h5><img src="assets/img/icons/sub-logo2.svg" alt="">Digital Excellence Delivered</h5>
             <div class="space20"></div>
-            <h2 class="text-anime-style-3">Our Comprehensive Services</h2>
+            <h2 class="text-anime-style-3">Our Expertise</h2>
           </div>
         </div>
       </div>
@@ -674,7 +708,7 @@
           <div class="portfolio-header heading1 space-margin60">
             <h5><img src="assets/img/icons/sub-logo2.svg" alt="">Showcasing Our Impact</h5>
             <div class="space24"></div>
-            <h2 class="text-anime-style-3">Our Portfolio showcase</h2>
+            <h2 class="text-anime-style-3">Our Creations</h2>
           </div>
         </div>
       </div>
@@ -683,48 +717,75 @@
           <div class="portfolio-slider-area owl-carousel">
             <div class="portfolio-boxarea">
               <div class="img1">
-                <img src="assets/img/all-images/portfolio/portfolio-img1.png" alt="">
+                <img src="assets/images/portfolio/askchoi.png" alt="" style="height: 400px;">
               </div>
               <div class="arrow-content">
                 <div class="arrow">
                   <a href="#services"><span><i class="fa-solid fa-arrow-right"></i></span></a>
                 </div>
                 <div class="content-area">
-                  <p>User Interface design</p>
+                  <p>Askchoi AI</p>
                   <div class="space16"></div>
-                  <a href="#services">Web Design For Business</a>
                 </div>
               </div>
             </div>
 
             <div class="portfolio-boxarea">
               <div class="img1">
-                <img src="assets/img/all-images/portfolio/portfolio-img2.png" alt="">
+                <img src="assets/images/portfolio/edike.png" alt="" style="height: 400px;">
               </div>
               <div class="arrow-content">
                 <div class="arrow">
                   <a href="#services"><span><i class="fa-solid fa-arrow-right"></i></span></a>
                 </div>
                 <div class="content-area">
-                  <p>User Interface design</p>
+                  <p>Edike Africa</p>
                   <div class="space16"></div>
-                  <a href="#services">Web Design For Business</a>
                 </div>
               </div>
             </div>
 
             <div class="portfolio-boxarea">
               <div class="img1">
-                <img src="assets/img/all-images/portfolio/portfolio-img3.png" alt="">
+                <img src="assets/images/portfolio/madisonjay.png" alt="" style="height: 400px;">
               </div>
               <div class="arrow-content">
                 <div class="arrow">
                   <a href="#services"><span><i class="fa-solid fa-arrow-right"></i></span></a>
                 </div>
                 <div class="content-area">
-                  <p>User Interface design</p>
+                  <p>Madison Jay</p>
                   <div class="space16"></div>
-                  <a href="#services">Web Design For Business</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-boxarea">
+              <div class="img1">
+                <img src="assets/images/portfolio/mart.png" alt="" style="height: 400px;">
+              </div>
+              <div class="arrow-content">
+                <div class="arrow">
+                  <a href="#services"><span><i class="fa-solid fa-arrow-right"></i></span></a>
+                </div>
+                <div class="content-area">
+                  <p>Garamart</p>
+                  <div class="space16"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-boxarea">
+              <div class="img1">
+                <img src="assets/images/portfolio/strictlyseasons.png" alt="" style="height: 400px;">
+              </div>
+              <div class="arrow-content">
+                <div class="arrow">
+                  <a href="#services"><span><i class="fa-solid fa-arrow-right"></i></span></a>
+                </div>
+                <div class="content-area">
+                  <p>Strictly Seasons</p>
+                  <div class="space16"></div>
                 </div>
               </div>
             </div>
@@ -737,7 +798,8 @@
 
   <!--===== TESTIMONIAL AREA START =======-->
   <section class="testimonials-2 sp6"
-    style="background-image: url(assets/img/all-images/bg/bg2.png); background-position: center; background-repeat: no-repeat; background-size: cover;" id="testimonials">
+    style="background-image: url(assets/img/all-images/bg/bg2.png); background-position: center; background-repeat: no-repeat; background-size: cover;"
+    id="testimonials">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 m-auto text-center">
@@ -776,15 +838,14 @@
                   <div class="names-area">
                     <div class="man-textarea">
                       <div class="man">
-                        <img src="assets/img/all-images/testimonial/testimonial-img5.png" alt="">
+                        <img src="assets/images/testimonials/testimonial-01.jpg" alt="">
                       </div>
                       <div class="text">
-                        <a href="team.html">Sheldon Jackson</a>
+                        <a>Sheldon Jackson</a>
                         <div class="space12"></div>
                         <p>Owner, FeatherDev</p>
                       </div>
                     </div>
-                    <img src="assets/img/elements/elements20.png" alt="" class="elements20">
                   </div>
                 </div>
               </div>
@@ -809,15 +870,14 @@
                   <div class="names-area">
                     <div class="man-textarea">
                       <div class="man">
-                        <img src="assets/img/all-images/testimonial/testimonial-img6.png" alt="">
+                        <img src="assets/images/testimonials/testimonial-02.jpg" alt="">
                       </div>
                       <div class="text">
-                        <a href="team.html">Amara Okoye</a>
+                        <a>Amara Okoye</a>
                         <div class="space12"></div>
                         <p>Founder, TechTrend Innovations</p>
                       </div>
                     </div>
-                    <img src="assets/img/elements/elements20.png" alt="" class="elements20">
                   </div>
                 </div>
               </div>
@@ -842,15 +902,14 @@
                   <div class="names-area">
                     <div class="man-textarea">
                       <div class="man">
-                        <img src="assets/img/all-images/testimonial/testimonial-img7.png" alt="">
+                        <img src="assets/images/testimonials/testimonial-04.jpg" alt="">
                       </div>
                       <div class="text">
-                        <a href="team.html">Chinedu Eze</a>
+                        <a>Chinedu Eze</a>
                         <div class="space12"></div>
                         <p>CEO, MarketPulse Solutions</p>
                       </div>
                     </div>
-                    <img src="assets/img/elements/elements20.png" alt="" class="elements20">
                   </div>
                 </div>
               </div>
@@ -875,15 +934,14 @@
                   <div class="names-area">
                     <div class="man-textarea">
                       <div class="man">
-                        <img src="assets/img/all-images/testimonial/testimonial-img8.png" alt="">
+                        <img src="assets/images/testimonials/testimonial-03.jpg" alt="">
                       </div>
                       <div class="text">
-                        <a href="team.html">Lola Adebayo</a>
+                        <a>Lola Adebayo</a>
                         <div class="space12"></div>
                         <p>Co-Founder, BrandSpark</p>
                       </div>
                     </div>
-                    <img src="assets/img/elements/elements20.png" alt="" class="elements20">
                   </div>
                 </div>
               </div>
@@ -908,15 +966,14 @@
                   <div class="names-area">
                     <div class="man-textarea">
                       <div class="man">
-                        <img src="assets/img/all-images/testimonial/testimonial-img9.png" alt="">
+                        <img src="assets/images/testimonials/testimonial-05.jpg" alt="">
                       </div>
                       <div class="text">
-                        <a href="team.html">Tunde Afolabi</a>
+                        <a>Tunde Afolabi</a>
                         <div class="space12"></div>
                         <p>Director, MobileEdge Ventures</p>
                       </div>
                     </div>
-                    <img src="assets/img/elements/elements20.png" alt="" class="elements20">
                   </div>
                 </div>
               </div>
@@ -944,12 +1001,11 @@
                         <img src="assets/img/all-images/testimonial/testimonial-img10.png" alt="">
                       </div>
                       <div class="text">
-                        <a href="team.html">Fatima Bello</a>
+                        <a>Emma Gabriels</a>
                         <div class="space12"></div>
                         <p>COO, GrowthWave Enterprises</p>
                       </div>
                     </div>
-                    <img src="assets/img/elements/elements20.png" alt="" class="elements20">
                   </div>
                 </div>
               </div>
@@ -969,27 +1025,27 @@
             <div class="swiper-wrapper list-img">
               <div class="swiper-slide">
                 <div>
-                  <img src="assets/img/all-images/testimonial/testimonial-img5.png" alt="">
+                  <img src="assets/images/testimonials/testimonial-01.jpg" alt="">
                 </div>
               </div>
               <div class="swiper-slide">
                 <div>
-                  <img src="assets/img/all-images/testimonial/testimonial-img6.png" alt="">
+                  <img src="assets/images/testimonials/testimonial-02.jpg" alt="">
                 </div>
               </div>
               <div class="swiper-slide">
                 <div>
-                  <img src="assets/img/all-images/testimonial/testimonial-img7.png" alt="">
+                  <img src="assets/images/testimonials/testimonial-04.jpg" alt="">
                 </div>
               </div>
               <div class="swiper-slide">
                 <div>
-                  <img src="assets/img/all-images/testimonial/testimonial-img8.png" alt="">
+                  <img src="assets/images/testimonials/testimonial-03.jpg" alt="">
                 </div>
               </div>
               <div class="swiper-slide">
                 <div>
-                  <img src="assets/img/all-images/testimonial/testimonial-img9.png" alt="">
+                  <img src="assets/images/testimonials/testimonial-05.jpg" alt="">
                 </div>
               </div>
               <div class="swiper-slide">
@@ -1007,7 +1063,8 @@
 
   <!--===== TEAM AREA STARTS =======-->
   <div class="team3-section-area sp2"
-    style="background-image: url(assets/img/all-images/bg/bg4.png); background-position: center; background-repeat: no-repeat; background-size: cover;" id="team">
+    style="background-image: url(assets/img/all-images/bg/bg4.png); background-position: center; background-repeat: no-repeat; background-size: cover;"
+    id="team">
     <img src="assets/img/elements/elements19.png" alt="" class="elements15">
     <div class="container">
       <div class="row">
@@ -1015,7 +1072,7 @@
           <div class="team-header heading1 text-center space-margin60">
             <h5><img src="assets/img/icons/sub-logo2.svg" alt="">meet our team</h5>
             <div class="space24"></div>
-            <h2 class="text-anime-style-3">our experienced team</h2>
+            <h2 class="text-anime-style-3">Our Experienced Team</h2>
           </div>
         </div>
       </div>
@@ -1028,14 +1085,9 @@
                 style="position: absolute; z-index: -2;">
               <img src="assets/images/team/blossom.png" alt="">
             </div>
-            <ul>
-              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-            </ul>
             <div class="space24"></div>
             <div class="content-area">
-              <a href="team.html">Blossom Johnson</a>
+              <a>Blossom Johnson</a>
               <div class="space12"></div>
               <p>Chief Techology Ofiicer</p>
             </div>
@@ -1049,14 +1101,9 @@
                 style="position: absolute; z-index: -2;">
               <img src="assets/images/team/chidozie.png" alt="">
             </div>
-            <ul>
-              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-            </ul>
             <div class="space24"></div>
             <div class="content-area">
-              <a href="team.html">Chidozie Valentine Nwabuko</a>
+              <a>Chidozie V. Nwabuko</a>
               <div class="space12"></div>
               <p>Chief Operating Officer</p>
             </div>
@@ -1070,14 +1117,9 @@
                 style="position: absolute; z-index: -2;">
               <img src="assets/images/team/israel.png" alt="">
             </div>
-            <ul>
-              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-            </ul>
             <div class="space24"></div>
             <div class="content-area">
-              <a href="team.html">Inene Israel</a>
+              <a>Inene Israel</a>
               <div class="space12"></div>
               <p>Team Lead</p>
             </div>
@@ -1091,14 +1133,9 @@
                 style="position: absolute; z-index: -2;">
               <img src="assets/images/team/victor.jpeg" alt="">
             </div>
-            <ul>
-              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-              <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-            </ul>
             <div class="space24"></div>
             <div class="content-area">
-              <a href="team.html">Asama Victor O.</a>
+              <a>Asama Victor O.</a>
               <div class="space12"></div>
               <p>Software Developer</p>
             </div>
@@ -1182,12 +1219,8 @@
   <!--===== CTA AREA STARTS =======-->
   <div class="cta-btn-area sp8">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="btn-area">
-            <a href="contact.html" class="cta-btn1">Get Started</a>
-          </div>
-        </div>
+      <div style="padding: 20px;">
+
       </div>
     </div>
   </div>
@@ -1202,7 +1235,8 @@
           <div class="footer-logo1">
             <img src="assets/img/logo/logo2.png" alt="">
             <div class="space16"></div>
-            <p>At Badij, our process is designed to ensure the success of each project and the satisfaction of our clients</p>
+            <p>At Badij, our process is designed to ensure the success of each project and the satisfaction of our
+              clients</p>
             <div class="space24"></div>
             <ul>
               <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -1221,7 +1255,7 @@
               <li><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#services">Service</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#project">Portfolio</a></li>
               <li><a href="contact.html">Contact Us</a></li>
             </ul>
           </div>
@@ -1232,8 +1266,10 @@
             <h3>Contact Us</h3>
             <ul>
               <li><a href="tel:+2347039341702"><img src="assets/img/icons/phn1.svg" alt="">+234(0)-7039341702</a></li>
-              <li><a href="#"><img src="assets/img/icons/location1.svg" alt="">14b Kafayat Abdulrazaq Street, Lekki Phase 1</a></li>
-              <li><a href="mailto:hello@badijtech.com.ng"><img src="assets/img/icons/email1.svg" alt="">hello@badijtech.com.ng</a>
+              <li><a href="#"><img src="assets/img/icons/location1.svg" alt="">14b Kafayat Abdulrazaq Street, Lekki
+                  Phase 1</a></li>
+              <li><a href="mailto:hello@badijtech.com.ng"><img src="assets/img/icons/email1.svg"
+                    alt="">hello@badijtech.com.ng</a>
               </li>
             </ul>
           </div>
@@ -1244,11 +1280,11 @@
             <div class="space30 d-lg-none d-block"></div>
             <h3>Join Newsletter</h3>
             <div class="space24"></div>
-            <img src="assets/img/all-images/others/others-img2.png" alt="">
+            <p class="newsletter-p">Subscribe to our newsletter and stay updated with the latest news.</p>
             <div class="space18"></div>
             <form>
               <input type="text" placeholder="Email">
-              <button type="submit" class="vl-btn1">Subscribe</button>
+              <button type="submit" class="vl-btn1"><i class="fa-solid fa-arrow-right"></i></button>
             </form>
           </div>
         </div>
@@ -1266,6 +1302,19 @@
   <!--===== FOOTER AREA ENDS =======-->
 
   <!--===== JS SCRIPT LINK =======-->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Take your Business To The Next Level'],
+      typeSpeed: 50,
+      startdelay: 10,
+      backSpeed: 35,
+      backDelay: 1000,
+      showCursor: false,
+      loop: true
+    });
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
   <script src="assets/js/plugins/bootstrap.min.js"></script>
   <script src="assets/js/plugins/fontawesome.js"></script>
   <script src="assets/js/plugins/aos.js"></script>
@@ -1284,6 +1333,42 @@
   <script src="assets/js/plugins/circle-progress.js"></script>
   <script src="assets/js/plugins/swiper.js"></script>
   <script src="assets/js/main.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.number').countUp({
+        time: 2000,
+        delay: 10
+      });
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const slides = document.querySelectorAll('.portfolio-card');
+      let currentIndex = 1; // Start with the middle card (index 1) as center
+
+      function updatePositions() {
+        slides.forEach((slide, index) => {
+          if (index === currentIndex) {
+            slide.setAttribute('data-position', 'center');
+          } else if (index === (currentIndex - 1 + slides.length) % slides.length) {
+            slide.setAttribute('data-position', 'left');
+          } else {
+            slide.setAttribute('data-position', 'right');
+          }
+        });
+      }
+
+      function showSlide(index) {
+        currentIndex = (index + slides.length) % slides.length;
+        updatePositions();
+      }
+
+      // Initialize positions
+      updatePositions();
+
+      // Auto-slide every 3 seconds
+      setInterval(() => showSlide(currentIndex + 1), 3000);
+    });
+  </script>
 </body>
 
 </html>
